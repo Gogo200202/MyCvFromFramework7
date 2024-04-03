@@ -51,13 +51,12 @@ const HomePage = () => (
         
       >
         
-       <p class="text-color-white" > Music player app</p>
+       <p className="text-color-white" > Music player app</p>
       </CardHeader>
       <CardContent>
-        <p className="date">Posted on January 21, 2015</p>
+        <p className="date">Posted on Dec 1, 2023</p>
         <p>
-          Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non
-          felis. Phasellus quis nibh hendrerit...
+        MusicPlayerApp is an app simple music player that runs exclusively in browser without the back end. 
         </p>
       </CardContent>
       <CardFooter>
@@ -70,65 +69,44 @@ const HomePage = () => (
       <CardHeader
         valign="bottom"
         style={{
-          backgroundImage: 'url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)',
+          backgroundImage: 'url(../img/portFolioWindowsXp.png)',
         }}
       >
-      <p class="text-color-white" > Journey To Mountains</p>
+      <p className="text-color-white" > Port folio on windows xp </p>
       </CardHeader>
       <CardContent>
-        <p className="date">Posted on January 21, 2015</p>
+        <p className="date">Posted on Apr 29, 2023</p>
         <p>
-          Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non
-          felis. Phasellus quis nibh hendrerit...
+        This repository is to showcase my ability to learn new skills. For this reason, I decided to learn three.js and use it to build small application to show it. 
         </p>
       </CardContent>
       <CardFooter>
       
-        <Link>See in GitHub</Link>
+        <Link href="https://github.com/Gogo200202/portFolioWindowsXp" external>See in GitHub</Link>
       </CardFooter>
     </Card>
     <Card outlineMd className="demo-card-header-pic">
       <CardHeader
         valign="bottom"
         style={{
-          backgroundImage: 'url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)',
+          backgroundImage: 'url(../img/productSellStor.png)',
         }}
       >
-<p class="text-color-white" > Journey To Mountains</p>
+<p className="text-color-white" > </p>
       </CardHeader>
       <CardContent>
-        <p className="date">Posted on January 21, 2015</p>
+        <p className="date">Posted on Jul 2, 2023</p>
         <p>
-          Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non
-          felis. Phasellus quis nibh hendrerit...
+        Full Stack mvc application in asp.net.core framework 
         </p>
       </CardContent>
       <CardFooter>
        
-        <Link>See in GitHub</Link>
+        <Link href="https://github.com/Gogo200202/ProductSellStore/activity?ref=master" external >See in GitHub</Link>
       </CardFooter>
+
     </Card>
-    <Card outlineMd className="demo-card-header-pic">
-      <CardHeader
-        valign="bottom"
-        style={{
-          backgroundImage: 'url(https://cdn.framework7.io/placeholder/nature-1000x600-3.jpg)',
-        }}
-      >
-<p class="text-color-white" > Journey To Mountains</p>
-      </CardHeader>
-      <CardContent>
-        <p className="date">Posted on January 21, 2015</p>
-        <p>
-          Quisque eget vestibulum nulla. Quisque quis dui quis ex ultricies efficitur vitae non
-          felis. Phasellus quis nibh hendrerit...
-        </p>
-      </CardContent>
-      <CardFooter>
-      
-        <Link>See in GitHub</Link>
-      </CardFooter>
-    </Card>
+
       </div>
       </Block>
 
