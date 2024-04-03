@@ -110,6 +110,7 @@ const HomePage = () => (
       </div>
       </Block>
 
+
       
    {/* 
     <BlockTitle>Navigation</BlockTitle>

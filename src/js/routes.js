@@ -8,6 +8,8 @@ import DynamicRoutePage from '../pages/dynamic-route.jsx';
 import RequestAndLoad from '../pages/request-and-load.jsx';
 import NotFoundPage from '../pages/404.jsx';
 
+import Techstack from '../pages/techstack.jsx'
+
 var routes = [
   {
     path: '/',
@@ -20,6 +22,12 @@ var routes = [
   {
     path: '/form/',
     component: FormPage,
+  },
+
+  {
+    path:'/techstack/',
+    component:Techstack
+
   },
 
 

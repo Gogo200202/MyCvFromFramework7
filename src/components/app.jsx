@@ -91,6 +91,7 @@ const MyApp = () => {
             <Navbar title="Menu"/>
             <List strong inset dividersIos>
       <ListItem  panelClose link="/aboutme/" title="About Me"/>
+      <ListItem  panelClose link="/techstack/" title="Tech stack"/>
     </List>
             </Page>
         
